@@ -1,0 +1,30 @@
+{
+    "name": "remithomas/rt-less",
+    "description": "ZF2 less css",
+    "type": "library",
+    "keywords": [
+        "zf2","less","css"
+    ],
+    "homepage": "https://github.com/remithomas/rt-less",
+    "authors": [
+        {
+            "name": "Remi THOMAS",
+            "email": "remi.thomas@yahoo.fr",
+            "homepage": "http://remithomas.fr/"
+        }
+    ],
+    "version": "1.0.0",
+    "require": {
+        "php": ">=5.3.3",
+        "oyejorge/less.php": "~1.7",
+        "zendframework/zendframework": "2.*"
+    },
+    "autoload": {
+        "psr-0": {
+            "RtLess": "src/"
+        },
+        "classmap": [
+            "./Module.php"
+        ]
+    }
+}
