@@ -45,7 +45,7 @@ class LessCss extends AbstractHelper
         
         // file to cache
         $to_cache = array(
-            INDEX_PATH . "/" . $lessFile => $this->view->basePath("")
+            $lessFile => $this->view->basePath("")
         );
         
         \Less_Cache::$cache_dir = $this->options->getCacheFolder();
