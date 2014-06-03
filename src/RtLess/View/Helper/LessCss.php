@@ -56,7 +56,7 @@ class LessCss extends AbstractHelper
             $id = substr($css_file_name, 0, -4);
         }
         
-        return "<link type='text/css' id='".$id."' rel='stylesheet' href='" . $this->view->basePath($this->options->getCacheFolderUrl() . $css_file_name) . "' />";
+        return "<link type='text/css' id='".$id."' rel='stylesheet' href='" . $this->options->getCacheFolderUrl() . $css_file_name . "' />";
         
     }
     
